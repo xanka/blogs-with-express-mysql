@@ -1,3 +1,12 @@
+# Techs stack
+- Nodejs
+- ExpressJS
+- MySQL DB
+
+
+# Runing
+<code> npm run startDev </code>
+
 # To make this source run please follow steps below:
 
 - open terminal run threes command to init data
