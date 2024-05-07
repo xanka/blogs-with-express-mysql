@@ -1,9 +1,13 @@
-# Techs stack
+# Tech stacks
 - Nodejs
 - ExpressJS
 - MySQL DB
 
+# Features
+Create - Edit - View- Listing Blog
 
+# In-Process
+- Login, Register account
 # Runing
 <code> npm run startDev </code>
 
