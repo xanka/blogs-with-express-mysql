@@ -1,0 +1,10 @@
+<div>
+    <% articles.forEach( item => {  %>
+        <h3><%= item.title  %></h3>
+        <p><i><%= item.createAt.toLocaleString()  %></i></p>
+        <div><%= item.description %></div>
+        <br> <br>
+        <a href="/articles/view/<%= item.id %>">Read more</a>
+        <hr>
+    <% }) %>
+</div>

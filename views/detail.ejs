@@ -1,0 +1,12 @@
+<h3>
+    <%= item.title %>
+</h3>
+<p><i>
+        <%= item.createAt.toLocaleString() %>
+    </i></p>
+<div>
+    <%= item.description %>
+</div>
+<br>
+<a href="/articles/edit/<%= item.id %>">Edit</a> | 
+<a href="/articles/new/">Create</a>

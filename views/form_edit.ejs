@@ -1,0 +1,4 @@
+<h1>Edit Article</h1>
+<form action="/articles/save/<%= formData.id %>?_method=put" method="POST">
+    <%- include('./form_fields', {formData:formData}) %>
+</form>
